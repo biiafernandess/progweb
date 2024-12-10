@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="SeuNome, NomeDaDupla">
+    <title>Meu Site</title>
+</head>
+<body>
+    <h1>Bem-vindo ao meu site</h1>
+    <nav>
+        <ul>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="pdf/materia.pdf" target="_blank">Matéria</a></li>
+            <li><a href="matematica.html">Matemática</a></li>
+            <li><a href="#email">E-mail</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Matemática</h2>
+        <ul>
+            <li><a href="matematica/bim1/algebra.html">Bimestre 1 - Álgebra</a></li>
+            <li><a href="matematica/bim2/geometria.html">Bimestre 2 - Geometria</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p id="email">Entre em contato: seuemail@exemplo.com</p>
+    </footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álgebra</title>
+</head>
+<body>
+    <h1>Álgebra</h1>
+    <p>Conteúdo sobre álgebra.</p>
+    <a href="../../fotos.html" target="_blank">Veja as Fotos</a>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometria</title>
+</head>
+<body>
+    <h1>Geometria</h1>
+    <p>Conteúdo sobre geometria.</p>
+    <a href="../../fotos.html" target="_blank">Veja as Fotos</a>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos</title>
+</head>
+<body>
+    <h1>Fotos</h1>
+    <p>Clique na imagem abaixo para acessar o PDF ou a página de Matemática.</p>
+    <a href="pdf/materia.pdf" target="_blank">
+        <img src="img/exemplo.jpg" alt="Imagem Exemplo" width="300">
+    </a>
+</body>
+</html>
+
